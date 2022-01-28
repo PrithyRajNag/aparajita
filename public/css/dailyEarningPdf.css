@@ -1,0 +1,41 @@
+.box {
+    min-width: 100%;
+    margin: auto;
+    padding: 20px;
+    font-size: 20px;
+    font-family: "Maven Pro";
+    color: #555;
+    /*text-align: right;*/
+}
+.box .text{
+    font-size: 10px;
+    font-style: italic;
+    line-height: 0px;
+    color: blue;
+}
+.box .top{
+    max-height: 20px;
+    padding: 0px;
+    background: #5a6268;
+}
+.box .top h2{
+    margin: 0px;
+    max-height: 30px;
+    color: white;
+}
+
+.box table .heading td{
+    background: #eee;
+    border-bottom: 1px solid #ddd;
+    font-weight: bold;
+}
+.box .bottom{
+    padding-top: 80px;
+}
+.box .received p{
+    font-size: 15px;
+    padding: 0px;
+    margin: 0px;
+}
+
+

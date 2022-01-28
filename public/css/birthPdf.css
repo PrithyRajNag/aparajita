@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno:400&display=swap');
+/*@import url('https://fonts.googleapis.com/css?family=Maven+Pro:400,500,600,700,900&display=swap');*/
+body, html {
+    margin: 0;
+    padding: 0;
+}
+body {
+    color: black;
+    display: table;
+    font-family: Georgia, serif;
+    font-size: 24px;
+    text-align: center;
+    margin: 10px;
+}
+.container {
+    border: 20px solid tan;
+    width: auto;
+    height: auto;
+    display: table-cell;
+    /*display: flex;*/
+    vertical-align: middle;
+    margin: auto;
+
+}
+/*.background{*/
+/*    background-image: url('img/bg.jpg');*/
+/*    background-repeat: no-repeat;*/
+/*    background-size: 100% 100%;*/
+/*    !*background-attachment: fixed;*!*/
+/*    background-blend-mode: overlay;*/
+/*}*/
+.logo {
+    margin-top: 1px;
+    color: darkred;
+    font-size: 30px;
+}
+
+.png-img{
+    margin-top: 2px;
+    height: 100px;
+    width: 100px;
+    align-items: center;
+    position: relative;
+    mix-blend-mode: multiply;
+}
+
+.marquee {
+    color: darkred;
+    font-size: 60px;
+    margin: 8px;
+}
+
+.assignment {
+    margin: 10px;
+}
+.person {
+    border-bottom: 2px dashed green;
+    font-size: 32px;
+    font-style: italic;
+    margin:  auto;
+    width: 500px;
+}
+
+.reason {
+    margin: 20px;
+}
+h4{
+    font-size: 16px;
+    font-weight: 10;
+    line-height: 1.5;
+    /*margin: auto;*/
+
+}
+
+h4 .p1{
+    /*text-decoration: underline;*/
+    border-bottom: 2px dashed green;
+    /*border-top: 2px solid green;*/
+    /*width: 400px;*/
+    font-weight: bold;
+
+
+
+}
+
+.bottom{
+    padding: 30px;
+}
+.bottom .sig{
+    font-size: 15px;
+    line-height: 3px;
+}
+
+
+
